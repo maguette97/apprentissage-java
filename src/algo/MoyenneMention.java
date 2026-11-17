@@ -17,7 +17,7 @@ public class MoyenneMention {
         else if (moyenne>=12 && moyenne<=14){
             System.out.println(moyenne + " Assez bien");
         }
-        else if (moyenne==10){
+        else if (moyenne>=10){
             System.out.println(moyenne + " Passable");
         }
         else {

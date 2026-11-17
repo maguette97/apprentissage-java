@@ -2,24 +2,16 @@ package algo;
 
 public class TriangleEtoiles {
     public static void main(String[] args){
-        int n = 1;
+        int hauteur = 4;
         String etoile = "*";
 
-        while(n<=1){
-            System.out.println(etoile);
-            for(int i =1; i<=2; i++){
-                System.out.print(etoile);
-            }
-            System.out.println();
-            for(int i =1; i<=3; i++){
-                System.out.print(etoile);
-            }
-            System.out.println();
-            for(int i =1; i<=4; i++){
-                System.out.print(etoile);
-            }
-            n=n+1;
+        for (int i = 1; i <= hauteur; i++) {
 
+            for (int j = 1; j <= i; j++) {
+                System.out.print(etoile);
+            }
+
+            System.out.println();
         }
     }
 }
