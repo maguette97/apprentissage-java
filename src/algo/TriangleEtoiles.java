@@ -5,9 +5,9 @@ public class TriangleEtoiles {
         int hauteur = 4;
         String etoile = "*";
 
-        for (int i = 1; i <= hauteur; i++) {
+        for (int ligne = 1; ligne <= hauteur; ligne++) {
 
-            for (int j = 1; j <= i; j++) {
+            for (int colonne = 1; colonne <= ligne; colonne++) {
                 System.out.print(etoile);
             }
 
